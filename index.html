@@ -128,7 +128,7 @@
       <input type="text" name="subject" id="subject">
       Message:<br>
       <p class="lead emoji-picker-container">
-        <input type="textbox" name="message" data-emoji-input="unicode" class="form-control" placeholder="Input Message" data-emojiable="true">
+        <input type="textbox" name="body" data-emoji-input="unicode" class="form-control" placeholder="Input Message" data-emojiable="true">
       </p>
       <br><br>
       <button type="submit" value="Submit">Send</button>
@@ -137,21 +137,6 @@
 
 
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-
-  <script type="text/javascript">
-  $(function(){
-    $("#nav a").click(function(e){
-      e.preventDefault();
-      $('html,body').scrollTo(this.hash,this.hash); 
-    });
-  });
-  </script>
-  <script type="text/javascript">
-   $(document).scroll(function() {
-      $('#menu').toggle($(this).scrollTop()>1000)
-   })
-   </script>
-
 
 
   <!-- Begin emoji-picker JavaScript -->
@@ -180,6 +165,20 @@
       window.emojiPicker.discover();
     });
   </script>
+
+<script type="text/javascript">
+  $(function(){
+    $("#nav a").click(function(e){
+      e.preventDefault();
+      $('html,body').scrollTo(this.hash,this.hash); 
+    });
+  });
+  </script>
+  <script type="text/javascript">
+   $(document).scroll(function() {
+      $('#menu').toggle($(this).scrollTop()>1000)
+   });​
+   </script>
 </body>
 
 </html>

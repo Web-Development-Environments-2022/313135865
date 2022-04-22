@@ -3,15 +3,31 @@
     overflow: hidden;
     background-color: rgb(233, 210, 120);
     position: fixed;
-    top: 0;
-    width: 100%;
+    top: 0%;
+	left: 0%;
+	right: 0%;
+	width: 100%;
     font-family: Tahoma, Verdana, sans-serif;
 	height: 45px;
-	/* text-align: justify; */
+    text-align: center;
+	align-self: center;
+
+}
+#menu a
+{
+	color: white;
+	text-decoration: none;
+    font-size: 25px;
 
 }
 
-#nav a {
+#menu a:hover
+{
+	color: rgb(158, 59, 238);
+}
+
+
+ /* #nav a {
     float: right;
     display: block;
     color: #000000;
@@ -25,7 +41,7 @@
 #nav a:hover {
     background: rgb(230, 214, 148);
     color: rgb(0, 0, 0) (0, 0, 0);
-}
+}  */
 
 .separator {
     display: flex;
@@ -81,5 +97,6 @@ p{
         width: 100%;
         height: 50px;
         }
+    
   
   
