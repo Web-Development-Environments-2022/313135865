@@ -7,6 +7,8 @@
     width: 100%;
     font-family: Tahoma, Verdana, sans-serif;
 	height: 45px;
+	/* text-align: justify; */
+
 }
 
 #nav a {
@@ -33,6 +35,7 @@
     font-size: 20pt;
     padding: 20px 16px;
     margin: 20px 20px 20px 20px;
+	/* margin-top: -40px */
 }
 
 .separator::before,	
@@ -60,24 +63,23 @@ p{
 	text-align:center;
 	font-family: Tahoma, Verdana, sans-serif;
   }
-.full-width {
-width: 100%;
-height: 100vh;
-display: flex;
-}
-.justify-content-center {
-	display: flex;
-	align-self: center;
-	width: 100%;
-}
-.lead.emoji-picker-container {
-	width: 300px;
-	display: block;
-}
-input {
-	width: 100%;
-	height: 50px;
-	}
-  
+  .full-width {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    }
+    .justify-content-center {
+        display: flex;
+        align-self: center;
+        width: 100%;
+    }
+    .lead.emoji-picker-container {
+        width: 300px;
+        display: block;
+    }
+    input {
+        width: 100%;
+        height: 50px;
+        }
   
   
