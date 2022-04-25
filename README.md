@@ -3,6 +3,6 @@
 In this work I created a personal website for Ricky Rosen from the TV series "Sabri Mernan".
 The site contains details about Ricky: like a personal story, photos and videos.
 
-ID: 313135865
-Name: Tamar Shaiman
-Website address: https://web-development-environments-2022.github.io/assignment1-TamarShaiman
+ID: 313135865 |
+Name: Tamar Shaiman |
+Website address: https://web-development-environments-2022.github.io/313135865
